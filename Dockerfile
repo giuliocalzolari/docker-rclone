@@ -1,6 +1,6 @@
 FROM alpine:3.9
 
-ENV RCLONE_VERSION=current
+ENV RCLONE_VERSION=1.46
 ENV ARCH=amd64
 
 RUN apk -U add ca-certificates wget bash \
